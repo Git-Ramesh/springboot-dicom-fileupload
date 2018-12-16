@@ -1,0 +1,13 @@
+server:
+  port: 4014
+  
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+      #Specify maximum size of a request (including both upload files and other form data)
+      max-request-size: 15MB
+logging:
+  level: 
+    com.rs.app: debug
